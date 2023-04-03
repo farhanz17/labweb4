@@ -2,14 +2,14 @@
 
 # Tugas Pemograman Web 2
 ## Profil
-| #               | Biodata           |
+| #               | MY Data           |
 | --------------- | ----------------- |
-| **Nama**        | Bilal AlHafidz    |
-| **NIM**         | 312110397         |
-| **Kelas**       | TI.21.A.1         |
+| **Nama**        | Muhammad Farhan   |
+| **NIM**         | 312110128         |
+| **Kelas**       | TI.21.A1         |
 | **Mata Kuliah** | Pemrograman Web 2 |
 
-# Persiapan 
+# Mempersiapkan hal-hal berikut 
 1. Persiapkan Text Editor misalnya VSCode.
 2. Buat folder baru dengan nama Lab4Web pada root Web Server (htdocs).
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
@@ -51,7 +51,7 @@ switch ($mod) {
 ```.htaccess
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /LabWeb/Lab4Web
+  RewriteBase /LabWebp4
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(.*)$ index.php?mod=$1 [L]
